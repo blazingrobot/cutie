@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(156, 81, 182);
+    font-family: Arial, sans-serif; /* Added a default font family */
+}
+
+.wrapper {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em; /* Adjusted for better scaling */
+    color: #F3E7D3;
+    margin: 15px 0;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Added gap between buttons */
+    margin-top: 20px; /* Reduced top margin */
+}
+
+button {
+    width: 150px;
+    height: 40px; /* Set a fixed height for consistency */
+    color: white;
+    font-size: 1.2em;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px gray;
+    border: 2px solid #F3E7D3;
+    background: #F3E7D3; /* Default background color */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background: #F3E7D3; /* Slightly darker color on hover */
+}
+
+button.hello-btn {
+    background: #F3E7D3; /* Specific background color for Hello button */
+}
+
+button.yes-btn {
+    background: #e2ae6c;
+}
+
+button.no-btn {
+    background: white;
+    color: #e2ae6c;
+    border: 2px solid #F3E7D3;
+}
+
+button.no-btn:hover {
+    background: #f8d7da; /* Light red color on hover for No button */
+}
